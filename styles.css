@@ -3,3 +3,9 @@ header {
   border: 5rem solid black;
   color: black;
 }
+
+nav {
+  color: blue;
+  margin: 5rem;
+  padding-inline: 1.5rem;
+}
