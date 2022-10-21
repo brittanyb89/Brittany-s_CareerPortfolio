@@ -12,13 +12,9 @@ header {
 
 nav {
   align-items: center;
-  color: #0000ff;
-  display: block;
+  color: #0707e2;
   float: right;
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  padding: 14px 16px;
+  padding: 0.5rem;
 }
 
 h1 {
