@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   background-color: powderblue;
-  border: none;
+  border: 0.15rem solid powderblue;
   height: 7rem;
   margin: 0;
   padding: 3.5rem;
