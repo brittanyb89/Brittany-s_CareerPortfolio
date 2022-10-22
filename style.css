@@ -1,6 +1,9 @@
+body {
+  background-color: rgb(160, 222, 160);
+}
+
 header {
-  background-color: rgb(146, 11, 11);
-  border: 0.15rem solid rgb(146, 11, 11);
+  border: 0.15rem solid rgb(160, 222, 160);
   color: black;
   height: 100%;
 }
