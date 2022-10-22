@@ -5,7 +5,12 @@ body {
 header {
   border: 0.15rem solid seagreen;
   color: black;
-  height: 100%;
+  height: 20rem;
+}
+
+h1 {
+  margin: 0.011rem;
+  padding: 1rem;
 }
 
 nav {
@@ -15,12 +20,6 @@ nav {
   float: right;
   font-size: 1.5rem;
   padding: 0.0153px;
-}
-
-h1 {
-  display: block;
-  margin: 0.011rem;
-  padding: 0;
 }
 
 h2 {
@@ -50,7 +49,6 @@ div {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
-  flex: 100%;
   flex-wrap: wrap;
 }
 
