@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(160, 222, 160);
+  background-color: seagreen;
 }
 
 header {
-  border: 0.15rem solid rgb(160, 222, 160);
+  border: 0.15rem solid seagreen;
   color: black;
   height: 100%;
 }
@@ -50,23 +50,30 @@ div {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
-  height: 100%;
-  justify-content: center;
-  margin-left: 15rem;
-  margin-right: 15rem;
-  padding: 7rem;
+  flex: 100%;
+  flex-wrap: wrap;
 }
 
 .main {
-  align-items: right;
-  background: lavenderblush;
-  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
   display: flex;
-  flex-direction: row-reverse;
-  height: 100%;
-  justify-content: center;
-  margin-left: 12rem;
-  padding: 20px;
+  flex-direction: row;
+  flex: 50%;
+  font-size: 17px;
+  height: 150px;
+  text-align: center;
+  width: 250px;
 }
 
 footer {
