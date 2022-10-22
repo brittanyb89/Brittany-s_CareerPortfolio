@@ -46,11 +46,12 @@ div {
   background: lavenderblush;
   border: 1px solid black;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   height: 100%;
   justify-content: center;
-  margin-left: 12rem;
-  padding: 200px;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  padding: 7rem;
 }
 
 .main {
