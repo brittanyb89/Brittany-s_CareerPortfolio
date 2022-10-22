@@ -9,12 +9,11 @@ header {
 }
 
 nav {
-  align-items: center;
-  color: #000046;
-  display: flexbox;
-  float: right;
-  font-size: 1.5rem;
-  padding: 0.0153px;
+  font-size: 1.5em;
+  justify-content: space-around;
+  margin: 2.2rem;
+  padding: 1rem;
+  text-align: right;
 }
 
 h2 {
