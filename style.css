@@ -2,7 +2,7 @@ header {
   background-color: rgb(146, 11, 11);
   border: 0.15rem solid rgb(146, 11, 11);
   color: black;
-  height: 17rem;
+  height: 100%;
 }
 
 nav {
@@ -23,8 +23,21 @@ h1 {
 h2 {
   background-color: powderblue;
   border: 0.15rem solid powderblue;
-  height: 7rem;
+  height: 100%;
   margin: 0;
   padding: 3.5rem;
   text-align: center;
+}
+
+h3 {
+  align-items: center;
+  background: whitesmoke;
+  border-right: 1px solid #000046;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  width: 170px;
 }
