@@ -2,6 +2,12 @@ body {
   background-image: url("Picture5.jpg");
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+  width: 50px;
+}
+
 nav {
   background-image: url("Picture5.jpg"),
     linear-gradient(to bottom, turquoise, teal);
@@ -12,10 +18,6 @@ nav {
   margin: 0;
   padding: 1rem;
   text-align: right;
-}
-
-a {
-  background-color: whitesmoke;
 }
 
 a:hover {
