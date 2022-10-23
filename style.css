@@ -1,19 +1,25 @@
-background-image {
-  url ("https://www.rankbyfocus.com/wp-content/uploads/2021/10/Emerging-web-design-trends-for-2021.jpeg")
+nav {
+  background-color: #1010a8;
+  color: blanchedalmond;
+  font-size: 1.5em;
+  justify-content: space-around;
+  margin: 0;
+  padding: 1rem;
+  text-align: right;
+}
+a {
+  background-color: grey;
+}
+
+a:hover {
+  background-color: yellowgreen;
 }
 
 header {
-  border: 0.15rem solid seagreen;
+  background-image: linear-gradient(to bottom, turquoise, teal),
+    url("Picture5.jpg");
   color: black;
   height: 20rem;
-}
-
-nav {
-  font-size: 1.5em;
-  justify-content: space-around;
-  margin: 2.2rem;
-  padding: 1rem;
-  text-align: right;
 }
 
 h2 {
