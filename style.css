@@ -16,10 +16,12 @@ a:hover {
 }
 
 header {
-  background-image: linear-gradient(to bottom, turquoise, teal),
-    url("Picture5.jpg");
-  color: black;
-  height: 20rem;
+  background-image: url("Picture5.jpg"),
+    linear-gradient(to bottom, turquoise, teal);
+  color: white;
+  height: 18rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 h2 {
