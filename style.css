@@ -14,7 +14,7 @@ nav {
   text-align: right;
 }
 a {
-  background-color: lightgrey;
+  background-color: whitesmoke;
 }
 
 a:hover {
@@ -58,7 +58,13 @@ section h3 {
 div {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: center;
+  left: 0;
+  margin: 3rem;
+  top: 32rem;
+  width: 150px;
 }
 
 .main {
