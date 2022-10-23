@@ -50,9 +50,6 @@ section h3 {
   flex-direction: column;
   height: 200px;
   justify-content: center;
-  left: 0;
-  top: 32rem;
-  width: 150px;
 }
 
 div {
@@ -106,4 +103,12 @@ footer {
   float: right;
   font-size: 1.5rem;
   padding: 0.0153px;
+}
+
+@media screen and (min-width: 480px) {
+  section h3 {
+    border-right: 2px solid #000046;
+    top: 32rem;
+    width: 150px;
+  }
 }
