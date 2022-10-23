@@ -1,4 +1,10 @@
+body {
+  background-image: url("Picture5.jpg");
+  height: 200rem;
+}
 nav {
+  background-image: url("Picture5.jpg"),
+    linear-gradient(to bottom, turquoise, teal);
   background-color: #1010a8;
   color: blanchedalmond;
   font-size: 1.5em;
@@ -8,7 +14,7 @@ nav {
   text-align: right;
 }
 a {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 a:hover {
@@ -16,7 +22,7 @@ a:hover {
 }
 
 header {
-  background-color: teal;
+  background-image: linear-gradient(to bottom, turquoise, teal);
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1em;
@@ -51,15 +57,11 @@ section h3 {
 }
 
 div {
-  align-items: right;
-  background: lavenderblush;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .main {
+  background-image: linear-gradient(to bottom, turquoise, teal);
   height: 300px;
   width: 300px;
 }
@@ -72,6 +74,7 @@ div {
 .box2,
 .box3,
 .box4 {
+  background-image: linear-gradient(to bottom, turquoise, teal);
   display: flex;
   flex-direction: row;
   flex: 50%;
