@@ -68,9 +68,19 @@ div {
 }
 
 .main {
+  align-items: center;
   background-image: linear-gradient(to bottom, turquoise, teal);
+  border: 2px solid blue;
   height: 300px;
+  margin-left: auto;
+  padding: 4.59rem;
   width: 300px;
+}
+
+p {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
 }
 
 * {
@@ -82,12 +92,11 @@ div {
 .box3,
 .box4 {
   background-image: linear-gradient(to bottom, turquoise, teal);
-  display: flex;
-  flex-direction: row;
-  flex: 50%;
+  border: 2px solid blue;
   font-size: 17px;
   height: 150px;
-  text-align: center;
+  margin-left: auto;
+  padding: 4rem;
   width: 250px;
 }
 
