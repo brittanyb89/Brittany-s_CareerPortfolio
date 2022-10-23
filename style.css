@@ -1,7 +1,7 @@
 body {
   background-image: url("Picture5.jpg");
-  height: 200rem;
 }
+
 nav {
   background-image: url("Picture5.jpg"),
     linear-gradient(to bottom, turquoise, teal);
@@ -32,20 +32,19 @@ header {
 }
 
 h2 {
-  background-image: url("Picture5.jpg"),
-    linear-gradient(to bottom, turquoise, teal);
-  color: white;
+  background-image: linear-gradient(to bottom, lightblue, teal);
+  color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2em;
   height: 100%;
   margin: 0;
-  padding: 3rem;
+  padding: 2rem;
   text-align: right;
 }
 
 section h3 {
   align-items: center;
-  background-color: white;
+  background-color: whitesmoke;
   border-right: 2px solid #000046;
   display: flex;
   flex-direction: column;
