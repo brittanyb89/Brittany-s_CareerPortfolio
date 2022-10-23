@@ -1,13 +1,8 @@
-# <Your-Project-Title>
+# Brittay's Portfolio
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The purpose of this portfolio is to capture the skills that were learned in bootcamp and put into one place so that employers can evaluate my talents and determine if I am a great candidate for their company. This helps employers not only read about the work that I have done, but also gives them the ability to view my capabilities. I learned in the process of building this portfolio that there are several ways to code, but there's always room to simplify, clean up, and improve.
 
 ## Table of Contents (Optional)
 

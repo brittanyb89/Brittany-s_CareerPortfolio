@@ -103,7 +103,6 @@ p {
 footer {
   align-items: center;
   color: #000046;
-  display: flexbox;
   float: right;
   font-size: 1.5rem;
   padding: 0.0153px;
