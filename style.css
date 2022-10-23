@@ -68,8 +68,10 @@ div {
   align-items: center;
   background-image: linear-gradient(to bottom, turquoise, teal);
   border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: 300px;
-  margin-left: auto;
   padding: 4.59rem;
   width: 300px;
 }
@@ -92,7 +94,6 @@ p {
   border: 2px solid blue;
   font-size: 17px;
   height: 150px;
-  margin-left: auto;
   padding: 4rem;
   width: 250px;
 }
