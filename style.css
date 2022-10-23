@@ -16,36 +16,36 @@ a:hover {
 }
 
 header {
-  background-image: url("Picture5.jpg"),
-    linear-gradient(to bottom, turquoise, teal);
-  color: white;
+  background-color: teal;
+  color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.5em;
-  height: 19rem;
-  padding: 0.5rem;
+  font-size: 1em;
+  height: 18rem;
+  padding: 0.25rem;
   text-align: center;
 }
 
 h2 {
-  background-color: teal;
+  background-image: url("Picture5.jpg"),
+    linear-gradient(to bottom, turquoise, teal);
+  color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 3em;
+  font-size: 2em;
   height: 100%;
   margin: 0;
-  padding: 3.5rem;
+  padding: 3rem;
   text-align: right;
 }
 
-h3 {
+section h3 {
   align-items: center;
-  background: whitesmoke;
-  border-right: 1px solid #000046;
+  background-color: aqua;
+  border-right: #000046;
   display: flex;
-  flex-direction: row-reverse;
-  height: 100%;
+  flex-direction: column;
+  height: 100px;
   justify-content: center;
-  margin-right: 12rem;
-  width: 170px;
+  left: 0;
 }
 
 div {
