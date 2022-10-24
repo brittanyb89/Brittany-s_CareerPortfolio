@@ -16,6 +16,7 @@ html {
   font-size: 18px;
 }
 
+/* Styles for navigation abr at top of page */
 nav {
   background: var(--main-bg-color);
   display: flex;
@@ -31,10 +32,12 @@ nav a {
   text-decoration: none;
 }
 
+/* Should appear yellowgreen when I hover over the link */
 a:hover {
   background-color: yellowgreen;
 }
 
+/* Contains styles for profile image */
 #hero {
   background: linear-gradient(whitesmoke, darkgrey) no-repeat center;
   color: black;
@@ -42,6 +45,7 @@ a:hover {
   width: 100%;
 }
 
+/* Below contains styles for the div class= container in the hero section */
 .container {
   display: flex;
   height: 100%;
@@ -66,6 +70,7 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+/* Action button to download resume, placeholder for now */
 .container .info a {
   background: var(--secondary-bg-color);
   border-radius: 4px;
@@ -77,6 +82,7 @@ a:hover {
   text-decoration: none;
 }
 
+/* Styles for hero image: profile picture */
 .container .hero-image {
   background-repeat: no-repeat;
   display: flex;
@@ -87,6 +93,7 @@ a:hover {
   width: 50%;
 }
 
+/* Below are styles for the nav and scrll-container; this enables the page to jump to selected section when user clicks the nav link at the top of page */
 nav,
 .scroll-container {
   display: block;
@@ -114,6 +121,7 @@ nav,
   margin: 0 auto;
 }
 
+/* Style for the larger box within the My Work section */
 .main {
   align-items: center;
   background-image: linear-gradient(to bottom, turquoise, teal);
@@ -130,6 +138,7 @@ nav,
   width: 90%;
 }
 
+/* Created a standard style for the smaller four boxes below the main box in My Work section */
 .box1,
 .box2,
 .box3,
@@ -158,6 +167,7 @@ footer {
   padding: 0.0153px;
 }
 
+/* Allows screen to adjust based on device: mobile, desktop, tablet, etc. */
 @media screen and (min-width: 480px) html {
   font-size: 10px;
 }
