@@ -1,3 +1,10 @@
+:root {
+  --main-bg-color: #fff;
+  --secondary-bg-color: silver, azure;
+  --main-border-color: blue;
+  --secondary-border-color: #000046;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,6 +17,7 @@ html {
 }
 
 nav {
+  background: var(--main-bg-color);
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -59,7 +67,7 @@ a:hover {
 }
 
 .container .info a {
-  background-color: azure;
+  background: var(--secondary-bg-color);
   border-radius: 4px;
   color: black;
   display: inline-block;
@@ -109,7 +117,7 @@ nav,
 .main {
   align-items: center;
   background-image: linear-gradient(to bottom, turquoise, teal);
-  border: 2px solid blue;
+  border: 2px solid var(--main-border-color);
   box-sizing: border-box;
   font-size: 2em;
   display: flex;
@@ -128,7 +136,7 @@ nav,
 .box4 {
   align-items: center;
   background-image: linear-gradient(to bottom, turquoise, teal);
-  border: 2px solid blue;
+  border: 2px solid var(--secondary-border-color);
   box-sizing: border-box;
   flex-direction: row;
   font-size: 2em;
