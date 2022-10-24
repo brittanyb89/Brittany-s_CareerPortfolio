@@ -1,4 +1,4 @@
-# Brittay's Portfolio
+# Brittany's Portfolio
 
 ## Description
 
