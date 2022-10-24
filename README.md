@@ -12,9 +12,7 @@ N/A
 
 To navigate Brittany's Portfolio, click the above links to scroll to that section of the page. Example, if you click 'About Me', the page will jump down to the About Me section.
 
-    ```md
-    ![Screenshot](./assets/images/Screenshot1.png)
-    ```
+![Screenshot](./assets/images/Screenshot1.png)
 
 ## Credits
 
