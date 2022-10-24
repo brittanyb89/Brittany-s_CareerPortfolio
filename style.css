@@ -107,6 +107,10 @@ nav,
   width: auto;
 }
 
+#aboutme {
+  margin-top: 10rem;
+}
+
 .scroll-container p {
   font-size: 20px;
   margin: 0 auto;
@@ -124,7 +128,7 @@ nav,
 }
 
 #mywork {
-  margin-top: 100px;
+  margin-top: 15rem;
 }
 
 /* Style for the larger box within the My Work section */
@@ -183,7 +187,6 @@ footer {
 }
 
 /* Allows screen to adjust based on device: mobile, desktop, tablet, etc. */
-/* stylelint-disable-next-line comment-empty-line-before */
-/* @media screen and (min-width: 480px) html {
+@media screen and (min-width: 480px) html {
   font-size: 10px;
-} */
+}
