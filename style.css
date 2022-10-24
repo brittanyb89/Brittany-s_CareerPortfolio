@@ -86,14 +86,14 @@ nav,
   text-align: center;
 }
 
-/* .scroll-container {
+.scroll-container {
   height: 200px;
-  overflow-y: scroll;
+  overflow-x: scroll;
   scroll-behavior: smooth;
   width: 350px;
 }
 
-.scroll-page {
+/* .scroll-page {
   align-items: center;
   display: flex;
   font-size: 4em;
