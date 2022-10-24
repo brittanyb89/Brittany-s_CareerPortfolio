@@ -81,22 +81,22 @@ nav,
   text-align: center;
 }
 
-/* .scroll-container {
+.scroll-container {
   height: 200px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   width: 350px;
 }
 
-.scroll-down {
+/* .scroll-down {
   align-items: center;
   display: flex;
   font-size: 5em;
   height: 100%;
   justify-content: center;
-}
+} */
 
-a:hover {
+/* a:hover {
   background-color: yellowgreen;
 }
 
