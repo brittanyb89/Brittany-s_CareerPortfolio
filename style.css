@@ -93,32 +93,14 @@ nav,
   width: 350px;
 }
 
-/* .scroll-page {
+.scroll-page {
   align-items: center;
-  display: flex;
   font-size: 4em;
   height: 100%;
   justify-content: center;
-} */
-
-div .main {
-  align-items: baseline;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  list-style-type: none;
-  margin-bottom: 0;
-  padding: 0;
 }
 
-/* color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  height: 100%;
-  margin: 0;
-  padding: 2rem;
-  text-align: right; */
-
-/* .main {
+.main {
   align-items: center;
   background-image: linear-gradient(to bottom, turquoise, teal);
   border: 2px solid blue;
@@ -128,17 +110,6 @@ div .main {
   height: 300px;
   padding: 4.59rem;
   width: 300px;
-} */
-
-/* p {
-  align-items: baseline;
-  padding: rem;
-}
-
-p {
-  font-style: italic;
-  font-size: 12px;
-  text-align: center;
 }
 
 .box1,
@@ -151,6 +122,34 @@ p {
   height: 150px;
   padding: 4rem;
   width: 250px;
+}
+
+/* div .main {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+} */
+
+/* color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100%;
+  margin: 0;
+  padding: 2rem;
+  text-align: right; */
+
+/* p {
+  align-items: baseline;
+  padding: rem;
+}
+
+p {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
 }
 
 footer {
