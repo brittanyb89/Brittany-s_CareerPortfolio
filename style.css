@@ -74,14 +74,14 @@ nav a {
   width: 50%;
 }
 
-/* nav,
+nav,
 .scroll-container {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
 
-nav {
+/* nav {
   background-image: url("Picture5.jpg"),
     linear-gradient(to bottom, turquoise, teal);
   border: 1px solid blue;
