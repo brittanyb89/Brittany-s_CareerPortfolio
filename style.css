@@ -18,6 +18,10 @@ nav {
   padding: 2rem;
 }
 
+a:hover {
+  background-color: yellowgreen;
+}
+
 nav a {
   display: inline-block;
   text-decoration: none;
@@ -88,6 +92,8 @@ nav,
   width: 350px;
 }
 
+/* this created the scroll down feature for page headings */
+
 /* .scroll-down {
   align-items: center;
   display: flex;
@@ -96,12 +102,7 @@ nav,
   justify-content: center;
 } */
 
-/* a:hover {
-  background-color: yellowgreen;
-}
-
-
-.container .info img {
+/* .container .info img {
 }
 h2 {
   background-image: linear-gradient(to bottom, lightblue, teal);
