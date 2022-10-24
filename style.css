@@ -109,12 +109,12 @@ nav,
 
 /* first heading beneath the hero section */
 #aboutme {
-  margin: 2rem;
-  padding: 2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .scroll-container p {
-  font-size: 25px;
+  font-size: 21px;
   margin: 1rem;
   padding: 1rem;
 }
@@ -130,7 +130,7 @@ nav,
 }
 
 #mywork {
-  margin-top: 15rem;
+  margin-top: 25rem;
 }
 
 /* Style for the larger box within the My Work section */
@@ -145,7 +145,7 @@ nav,
   justify-content: center;
   margin: 4rem;
   max-width: 2000px;
-  padding: 4.59em 5em;
+  padding: 2.58em 5em;
   width: 90%;
 }
 
@@ -177,7 +177,7 @@ footer {
   padding: 0.0153px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 650px) {
   .contacts {
     display: flex;
     flex-direction: column;
@@ -189,6 +189,7 @@ footer {
 }
 
 /* Allows screen to adjust based on device: mobile, desktop, tablet, etc. */
+
 @media screen and (min-width: 480px) html {
   font-size: 10px;
 }
