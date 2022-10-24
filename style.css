@@ -81,19 +81,7 @@ nav,
   text-align: center;
 }
 
-/* nav {
-  background-image: url("Picture5.jpg"),
-    linear-gradient(to bottom, turquoise, teal);
-  border: 1px solid blue;
-  color: blanchedalmond;
-  gap: 2rem;
-  margin: 0;
-  padding: 5px;
-  text-align: right;
-  width: 339px;
-}
-
-.scroll-container {
+/* .scroll-container {
   height: 200px;
   overflow-y: scroll;
   scroll-behavior: smooth;
