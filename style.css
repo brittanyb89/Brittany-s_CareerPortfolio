@@ -149,7 +149,7 @@ nav,
 .box3,
 .box4 {
   align-items: center;
-  background-image: linear-gradient(to bottom, turquoise, teal);
+  background: linear-gradient(to bottom, turquoise, teal);
   border: 2px solid var(--secondary-border-color);
   flex-direction: row;
   font-size: 2em;
@@ -169,6 +169,16 @@ footer {
   font-size: 1em;
   gap: 1rem;
   padding: 0.0153px;
+}
+
+@media screen and (max-width: 820px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts a {
+    margin: 20px;
+  }
 }
 
 /* Allows screen to adjust based on device: mobile, desktop, tablet, etc. */
