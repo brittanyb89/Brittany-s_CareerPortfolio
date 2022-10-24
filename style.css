@@ -46,17 +46,64 @@ a:hover {
   background-color: yellowgreen;
 }
 
-header {
-  background-image: linear-gradient(to bottom, turquoise, teal);
-  color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1em;
-  height: 18rem;
-  padding: 0.25rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+#hero {
+  background: url("Picture5.jpg"),
+    linear-gradient(turquoise, teal) no-repeat center/cover;
+  color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.container .info h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.container .info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.container .info a {
+  background-color: azure;
+  border-radius: 4px;
+  color: black;
+  display: inline-block;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+.container .info img {
+  border-radius: 4rem;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+/* h2 {
   background-image: linear-gradient(to bottom, lightblue, teal);
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -142,3 +189,4 @@ footer {
     width: 150px;
   }
 }
+*/
