@@ -104,12 +104,15 @@ nav,
   align-items: center;
   background-image: linear-gradient(to bottom, turquoise, teal);
   border: 2px solid blue;
+  box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
   gap: 3rem;
   height: 30rem;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 2000px;
   padding: 4.59em 5em;
-  width: 30rem;
+  width: 90%;
 }
 
 .box1,
