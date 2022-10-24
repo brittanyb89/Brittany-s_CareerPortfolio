@@ -108,7 +108,8 @@ nav,
 }
 
 #aboutme {
-  margin: 1rem;
+  margin: 2rem;
+  padding: 2rem;
 }
 
 .scroll-container p {
@@ -141,7 +142,7 @@ nav,
   gap: 3rem;
   height: 45rem;
   justify-content: center;
-  margin: 3.65rem;
+  margin: 4rem;
   max-width: 2000px;
   padding: 4.59em 5em;
   width: 90%;
@@ -161,7 +162,7 @@ nav,
   gap: 3rem;
   height: 2rem;
   justify-content: center;
-  margin: 3.65rem;
+  margin: 4rem;
   max-width: 2000px;
   padding: 2em 3em;
   width: 90%;
