@@ -12,10 +12,8 @@ N/A
 
 To navigate Brittany's Portfolio, click the above links to scroll to that section of the page. Example, if you click 'About Me', the page will jump down to the About Me section.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![Screenshot](https://github.com/brittanyb89/Portfolio-BrittanyBurton/blob/main/assets/Screenshot_20221024_095115.png)
     ```
 
 ## Credits
