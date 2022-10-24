@@ -73,13 +73,14 @@ nav a {
   position: relative;
   width: 50%;
 }
-/* a {
+
+a {
   display: inline-block;
   text-decoration: none;
   width: 50px;
 }
 
-nav,
+/* nav,
 .scroll-container {
   display: block;
   margin: 0 auto;
