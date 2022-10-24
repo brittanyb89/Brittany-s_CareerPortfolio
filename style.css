@@ -107,15 +107,16 @@ nav,
   width: auto;
 }
 
+/* first heading beneath the hero section */
 #aboutme {
   margin: 2rem;
   padding: 2rem;
 }
 
 .scroll-container p {
-  font-size: 20px;
-  margin: 0 auto;
-  padding: 0 auto;
+  font-size: 25px;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 /* Standard styles for My Work section */
@@ -176,7 +177,7 @@ footer {
   padding: 0.0153px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1100px) {
   .contacts {
     display: flex;
     flex-direction: column;
