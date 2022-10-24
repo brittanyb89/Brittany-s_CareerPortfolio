@@ -86,14 +86,12 @@ nav,
   text-align: center;
 }
 
-.scroll-container {
+/* .scroll-container {
   height: 200px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   width: 350px;
 }
-
-/* Need to edit scroll page */
 
 .scroll-page {
   align-items: center;
@@ -101,7 +99,7 @@ nav,
   font-size: 4em;
   height: 100%;
   justify-content: center;
-}
+} */
 
 div .main {
   align-items: baseline;
@@ -137,16 +135,10 @@ div .main {
   padding: rem;
 }
 
-
-
 p {
   font-style: italic;
   font-size: 12px;
   text-align: center;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .box1,
