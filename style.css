@@ -90,7 +90,7 @@ nav,
   height: 200px;
   overflow-x: scroll;
   scroll-behavior: smooth;
-  width: 350px;
+  width: auto;
 }
 
 .scroll-page {
@@ -105,11 +105,11 @@ nav,
   background-image: linear-gradient(to bottom, turquoise, teal);
   border: 2px solid blue;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  height: 300px;
-  padding: 4.59rem;
-  width: 300px;
+  gap: 3rem;
+  height: 30rem;
+  padding: 4.59em 5em;
+  width: 30rem;
 }
 
 .box1,
