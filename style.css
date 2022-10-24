@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -18,26 +23,24 @@ nav a {
   text-decoration: none;
 }
 
-html {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-}
-
 #hero {
-  background: linear-gradient(whitesmoke, darkgrey) no-repeat center/cover;
+  background: linear-gradient(whitesmoke, darkgrey) no-repeat center;
   color: black;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
 .container {
-  align-items: center;
   display: flex;
   height: 100%;
-  justify-content: center;
   margin: 0 auto;
   max-width: 1000px;
   width: 90%;
+}
+
+.container .info {
+  align-items: center;
+  justify-content: center;
 }
 
 .container .info h1 {
@@ -61,6 +64,15 @@ html {
   text-decoration: none;
 }
 
+.container .hero-image {
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+  justify-content: right;
+  position: relative;
+  width: 50%;
+}
 /* a {
   display: inline-block;
   text-decoration: none;
