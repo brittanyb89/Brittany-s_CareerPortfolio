@@ -176,12 +176,14 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
   .contacts a {
     margin: 20px;
   }
 }
 
 /* Allows screen to adjust based on device: mobile, desktop, tablet, etc. */
-@media screen and (min-width: 480px) html {
+/* stylelint-disable-next-line comment-empty-line-before */
+/* @media screen and (min-width: 480px) html {
   font-size: 10px;
-}
+} */
