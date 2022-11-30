@@ -6,7 +6,8 @@ The purpose of this portfolio is to capture the skills that were learned in boot
 
 ## Installation
 
-N/A
+Web URL: https://brittanyb89.github.io/Brittany-s_CareerPortfolio/
+GitHub URL:https://github.com/brittanyb89/Brittany-s_CareerPortfolio/settings/pages
 
 ## Usage
 
